@@ -1,0 +1,28 @@
+.Trending{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.Trending h1{
+    color:white;
+    font-size: 45px ;
+    font-weight: bold;
+}
+.Trending hr{
+    height: 3px;
+    width: 400px;
+    background: white;
+    border-radius: 20px;
+}
+.trending-item{
+    margin-top: 50px;
+    margin-right: 100px;
+    display: flex;
+    gap: 160px;
+    width: 80%;
+    justify-content: center;
+} 
