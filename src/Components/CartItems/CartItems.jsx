@@ -22,12 +22,12 @@ const CartItems = () => {
                 {
                     return <div>
                         <div className="cartitems-format">
-                        <img src={e.image} alt='' className='carticon-product-icon' />
-                        <p>{e.name}</p>
-                        <p>Rs. {e.new_price}</p>
-                        <button className='cartitems-quantity'>{cartItems[e.id]}</button>
-                        <p>{e.new_price * cartItems[e.id]}</p>
-                        <img src={remove_icon} onClick={()=>{removeFromCart()}} alt="" />
+                            <img src={e.image} alt='' className='carticon-product-icon' />
+                            <p>{e.name}</p>
+                            <p>Rs. {e.new_price}</p>
+                            <button className='cartitems-quantity'>{cartItems[e.id]}</button>
+                            <p>{e.new_price * cartItems[e.id]}</p>
+                            <img src={remove_icon} onClick={()=>{removeFromCart()}} alt="" />
                         </div>
                         <hr />
                     </div>
