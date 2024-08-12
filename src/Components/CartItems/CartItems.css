@@ -1,0 +1,109 @@
+.CartItems{
+    padding: 100px 170px;
+    background: black;
+    color: white;
+}
+.CartItems hr{
+    height: 3px;
+    border:0;
+    background: #f72585;
+}
+.CartItems-main-format{
+    display: grid;
+    grid-template-columns: 0.7fr 2fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+    gap: 75px;
+    padding:25px 0px;
+    font-size: 18px;
+    font-weight: 600;
+}
+.CartItems-format{
+    font-size: 16px;
+    font-weight: 500;
+}
+.carticon-product-icon{
+    height: 75px;
+}
+.carticon-remove-icon{
+    width: 15px;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+.cartitems-quantity{
+    width: 70px;
+    height: 40px;
+    border: 2px solid white;
+    font-family: "Outfit", sans-serif;
+    font-weight: 600;
+    border-radius: 25px;
+}
+.CartItems-down{
+    display: flex;
+    margin: 100px 0px;
+}
+.CartItems-total{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-right: 600px;
+    gap: 40px;
+}
+.CartItems-total-item{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+.CartItems-total button{
+    width: 250px;
+    height: 60px;
+    outline: none;
+    border: none;
+    background: #f72585;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.CartItems-promocode{
+    flex: 1;
+    font-size: 16px;
+    font-weight: 500;
+    
+}
+.CartItems-promocode p{
+    color: grey;
+    font-weight: 500;
+    
+}
+.CartItems-promo-box{
+    width: 300px;
+    padding-left: 10px;
+    height: 32px;
+    background: rgb(189, 189, 189);
+    border-radius: 4px;
+}
+.CartItems-promo-box input{
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 16px;
+    width: 200px;
+    height: 30px;
+    padding-top: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: "Outfit", sans-serif;
+}
+.CartItems-promo-box button{
+    font-size: 16px;
+    width: 80px;
+    height: 32px;
+    background-color: #f72585;
+    border-radius: 0px 4px 4px 0px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    font-family: "Outfit", sans-serif;
+}

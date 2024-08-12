@@ -339,24 +339,28 @@ let all_product = [
   {
     id:1,
     name:"Finalmouse Aceu Medium",
+    category: "mouse",
     image:p1_1_img,
     new_price:14599,
     old_price:20999,
   },
   {id:2,
     name:"Glorious Model O- Wireless",
+    category: "mouse",
     image:p2_1_img,
     new_price:8750,
     old_price:12000,
   },
   {id:3,
     name:"Razer Viper V2",
+    category: "mouse",
     image:p3_1_img,
     new_price:6500,
     old_price:13000,
   },
   {id:4,
     name:"HyperX Pulsefire Haste Wireless",
+    category: "mouse",
     image:p4_1_img,
     new_price:4500,
     old_price:5999,
@@ -364,6 +368,7 @@ let all_product = [
   {
     id: 5,  // Changed from id: 12
     name: "Finalmouse Starlight 12 - Ivory White",
+    category: "mouse",
     image: p1_2_img,
     new_price: 13500,
     old_price: 18999,
@@ -371,6 +376,7 @@ let all_product = [
   {
     id: 6,  // Changed from id: 35
     name: "Finalmouse Starlight 12 - Starry Silver",
+    category: "mouse",
     image: p2_2_img,
     new_price: 13500,
     old_price: 18999,
@@ -378,6 +384,7 @@ let all_product = [
   {
     id: 7,  // Changed from id: 14
     name: "Red-dragon Crystal Gaming Keyboard",
+    category: "keeb",
     image: p3_2_img,
     new_price: 3250,
     old_price: 6500,
@@ -385,6 +392,7 @@ let all_product = [
   {
     id: 8,  // Changed from id: 8
     name: "Red-dragon Gaming Keyboard - Black",
+    category: "keeb",
     image: p4_2_img,
     new_price: 2540,
     old_price: 3999,
@@ -392,6 +400,7 @@ let all_product = [
   {
     id: 9,  // Changed from id: 15
     name: "Finalmouse Starlight 12 - Crimson Red",
+    category: "mouse",
     image: p5_2_img,
     new_price: 13500,
     old_price: 18999,
@@ -399,6 +408,7 @@ let all_product = [
   {
     id: 10,  // Changed from id: 2
     name: "Hyper-X Gaming Earpods - Raging Red",
+    category: "misc",
     image: p6_2_img,
     new_price: 2200,
     old_price: 4600,
@@ -406,6 +416,7 @@ let all_product = [
   {
     id: 11,  // Changed from id: 17
     name: "Hyper-X Cloud-II Gaming Headset - Blue",
+    category: "misc",
     image: p7_2_img,
     new_price: 10299,
     old_price: 13999,
@@ -413,6 +424,7 @@ let all_product = [
   {
     id: 12,  // Changed from id: 28
     name: "Hyper-X Alloys Origins Gaming Keyboard",
+    category: "keeb",
     image: p8_2_img,
     new_price: 7495,
     old_price: 10990,
