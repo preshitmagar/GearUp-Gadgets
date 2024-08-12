@@ -4,7 +4,6 @@ import Trending from '../Components/Trending/Trending';
 import Offers from '../Components/Offers/Offers';
 import NewCollection from '../Components/NewCollection/Newcollection';
 import Newsletter from '../Components/Newsletter/Newsletter';
-import Footer from '../Components/Footer/Footer';
 
 
 
