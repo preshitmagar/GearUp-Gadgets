@@ -73,7 +73,7 @@
     
 }
 .CartItems-promocode p{
-    color: grey;
+    color: white;
     font-weight: 500;
     
 }
@@ -81,7 +81,7 @@
     width: 300px;
     padding-left: 10px;
     height: 32px;
-    background: rgb(189, 189, 189);
+    background: white;
     border-radius: 4px;
 }
 .CartItems-promo-box input{
@@ -100,10 +100,16 @@
     font-size: 16px;
     width: 80px;
     height: 32px;
-    background-color: #f72585;
+    background-color: rgb(202, 202, 202);
     border-radius: 0px 4px 4px 0px;
-    color: white;
+    color: black;
     cursor: pointer;
+    font-weight: 600;
     border: none;
     font-family: "Outfit", sans-serif;
+}
+.CartItems-promo-box button:hover{
+    transition: 0.1s;
+    background-color: #f72585;
+    color: white;
 }
