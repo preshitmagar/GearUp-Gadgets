@@ -12,10 +12,18 @@
     align-items: center;
     gap: 10px;
 }
+.nav-logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .nav-logo p{
     font-size: 35px;
     font-weight: 700;
+    color: white;
+    margin-left: 10px;
 }
+
 .nav-logo img{
     height: 70px;
     width: 85px;

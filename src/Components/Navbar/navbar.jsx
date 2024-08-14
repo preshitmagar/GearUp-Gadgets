@@ -14,11 +14,15 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <div className='nav-logo'>
-                <img src={logo} alt="" />
+            <Link style={{textDecoration: 'none'}}  to='/'>
+                <img onClick={() => {setMenu("shop")}} src={logo} alt="" />
                 <p>GearUp</p>
+                {menu ==="shop" ? <hr />: <></>}
+            </Link>
+                
             </div>
             <ul className="nav-menu">
-                <li onClick={() => {setMenu("shop")}}><Link style={{textDecoration: 'none'}}  to='/'>Shop</Link>{menu ==="shop" ? <hr />: <></>}</li>
+                <li onClick={() => {setMenu("shop")}}><Link style={{textDecoration: 'none'}}  to='/'>Shop</Link>{menu ==="shop" ? <hr />: <></>}</li> 
                 <li onClick={() => {setMenu("mouse")}}><Link style={{textDecoration: 'none'}} to='/mouse'>Mouse</Link>{menu ==="mouse" ? <hr />: <></>}</li>
                 <li onClick={() => {setMenu("keeb")}}><Link style={{textDecoration: 'none'}} to='/keeb'>Keyboard</Link>{menu ==="keeb" ? <hr />: <></>}</li>
                 <li onClick={() => {setMenu("misc")}}><Link style={{textDecoration: 'none'}} to='/misc'>Misc.</Link>{menu ==="misc" ? <hr />: <></>}</li>
