@@ -3,7 +3,7 @@
     background: linear-gradient(290deg, black, #4361EE, black 1200px );
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
 }
 
 .hero-left{
@@ -133,6 +133,7 @@
   .hero{
     flex-direction: column;
     align-items: center;
+    padding-bottom: 60px;
   }
   .hero-left{
     padding: 0px;
