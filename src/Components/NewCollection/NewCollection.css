@@ -22,6 +22,82 @@
     margin-bottom: 100px;
     margin-right: 100px;
     display: grid;
-    grid-template-columns: 3fr 3fr 3fr 2fr;
-    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 120px;
 }
+@media(max-width:1280px){
+    .new-collection{
+        padding-bottom: 20px;
+    }
+    .new-collection h1{
+        font-size: 35px;
+    }
+    .new-collection hr{
+        width: 250px;
+        height: 1px;
+    }
+    .collection{
+        gap:20px;
+        margin: 0px;
+        margin-top: 30px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+@media(max-width:1024px){
+    .new-collection h1{
+        font-size: 30px;
+    }
+    .new-collection hr{
+        width: 180px;
+        height: 1px;
+    }
+    .collection{
+        gap:15px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:1024px){
+
+    .new-collection h1{
+        font-size: 30px;
+    }
+    .new-collection hr{
+        width: 180px;
+        height: 1px;
+    }
+    .collection{
+        gap:15px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:800px){
+    .new-collection{
+        gap: 6px;
+    }
+    .new-collection h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .new-collection hr{
+        width: 100px;
+        height: 1px;
+    }
+    .Trending-item{
+        gap:5px;
+        margin: 0;
+    }
+
+}
+@media(max-width:500px){
+    .collection{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+

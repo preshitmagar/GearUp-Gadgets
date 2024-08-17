@@ -8,7 +8,7 @@ const Trending = () => {
         <div className='Trending'>
             <h1>Trending in Gaming mouse</h1>
             <hr />
-            <div className="trending-item">
+            <div className="Trending-item">
                 {data_product.map((item,i) => {
                     return <Item key={i} id={item.id} name={item.name} image={item.image} new-price={item.new_price} new_price={item.new_price} old_price={item.old_price} />
                 })}

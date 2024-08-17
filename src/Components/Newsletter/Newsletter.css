@@ -1,5 +1,6 @@
 .newsletter-before{
     background-color: black;
+    width: 100%;
 }
 .newsletter{
     height: 85vh;
@@ -57,4 +58,58 @@
     background-color: #f72585;
     color: white;
     transition-duration: 0.1s;
+}
+@media(max-width:1280px){
+    .newsletter{
+        padding: 0px 80px;
+        gap: 20px;
+    }
+    .newsletter h1{
+        font-size: 38px;
+    }
+    .newsletter p{
+        font-size: 17px;
+    }
+    .newsletter div{
+        width: 500px;
+        height: 60px;
+    }
+    .newsletter input{
+        width: 350px;
+        height: 30px;
+        font-size: 17px;
+    }
+    .input-btn{
+    width: 150px;
+    height: 30px;
+    font-size: 17px;
+    }
+}
+@media(max-width:800px){
+    .newsletter{
+        padding: 0px 20px;
+        gap: 20px;
+        align-items: center;
+    }
+    .newsletter h1{
+        font-size: 30px;
+        text-align: center;
+    }
+    .newsletter p{
+        font-size: 14px;
+    }
+    .newsletter div{
+        width: 300px;
+        height: 60px;
+    }
+    .newsletter input{
+        width: 200px;
+        height: 25px;
+        font-size: 17px;
+    }
+    .input-btn{
+    width: 100px;
+    height: 25px;
+    font-size: 14px;
+    }
 }

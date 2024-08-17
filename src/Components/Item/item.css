@@ -27,3 +27,60 @@
     margin-right:5px;
     font-size: 20px;  
 }
+@media(max-width:1280px){
+    .item{
+        width: 220px;
+        font-size: 14px;
+    }
+    .item img{
+        height: 220px;
+        width: 220px;
+    }
+    .item-old-price{
+        font-size: 14px;
+    }
+    .item-new-price{
+        font-size: 15px;
+    }
+}
+@media(max-width:1024px){
+    .item{
+        width: 170px;
+        font-size: 12px;
+    }
+    .item img{
+        height: 170px;
+        width: 170px;
+    }
+    .item-old-price{
+        font-size: 11px;
+    }
+    .item-new-price{
+        font-size: 13px;
+    }
+}
+@media(max-width:800px){
+    .item{
+        width: 120px;
+        font-size: 12px;
+    }
+    .item img{
+        height: 120px;
+        width: 120px;
+    }
+    .item-old-price{
+        font-size: 10px;
+    }
+    .item-new-price{
+        font-size: 12px;
+    }
+}
+@media(max-width:500px){
+    .item{
+        width: 170px;
+    }
+    .item img{
+        height: 170px;
+        width: 170px;
+    }
+}

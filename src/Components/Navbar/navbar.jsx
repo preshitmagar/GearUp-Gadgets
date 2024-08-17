@@ -1,15 +1,21 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useRef, useState} from 'react';
 import { Link } from 'react-router-dom';
 import './navbar.css';
 import cart_icon from '../Assets/cart-shopping.svg'
 import logo from '../Assets/logo2.png'
 import { ShopContext } from '../../ContextApis/ShopContext';
+import drop_arrow from '../Assets/down-arrow.png';
 
 
 const Navbar = () => {
 
     const [menu, setMenu] = useState("shop");
     const {getTotalCartItems} = useContext(ShopContext);
+    const menuRef = useRef();
+    const dropdown_toggle = (e) => {
+        menuRef.current.classList.toggle('nav-menu-visible');
+        e.target.classList.toggle('open');
+    }
 
     return (
         <div className='navbar'>
@@ -21,7 +27,8 @@ const Navbar = () => {
             </Link>
                 
             </div>
-            <ul className="nav-menu">
+            <img className='nav-dropdown' onClick={dropdown_toggle} src={drop_arrow} alt='' />
+            <ul ref={menuRef} className="nav-menu">
                 <li onClick={() => {setMenu("shop")}}><Link style={{textDecoration: 'none'}}  to='/'>Shop</Link>{menu ==="shop" ? <hr />: <></>}</li> 
                 <li onClick={() => {setMenu("mouse")}}><Link style={{textDecoration: 'none'}} to='/mouse'>Mouse</Link>{menu ==="mouse" ? <hr />: <></>}</li>
                 <li onClick={() => {setMenu("keeb")}}><Link style={{textDecoration: 'none'}} to='/keeb'>Keyboard</Link>{menu ==="keeb" ? <hr />: <></>}</li>
