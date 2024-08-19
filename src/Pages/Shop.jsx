@@ -1,5 +1,5 @@
 import React from 'react';
-import Hero from '../Components/MainPage/Hero';
+import Hero from '../Components/HeroPage/Hero';
 import Trending from '../Components/Trending/Trending';
 import Offers from '../Components/Offers/Offers';
 import NewCollection from '../Components/NewCollection/Newcollection';
