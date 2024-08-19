@@ -9,3 +9,26 @@
     padding: 60px 150px;
     text-transform: capitalize;
 }
+@media(max-width:1280px){
+    .breadcrumb{
+        padding: 30px 50px;
+    }
+}
+@media(max-width:1024px){
+    .breadcrumb{
+        padding: 30px 30px;
+        font-size: 18px;
+    }
+}
+@media(max-width:800px){
+    .breadcrumb{
+        padding: 30px 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width:500px){
+    .breadcrumb{
+        padding: 30px 15px;
+        font-size: 12px;
+    }
+}

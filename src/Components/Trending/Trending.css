@@ -62,24 +62,6 @@
     }
 
 }
-@media(max-width:1024px){
-    .Trending{
-        height: 80vh;
-    }
-    .Trending h1{
-        font-size: 30px;
-    }
-    .Trending hr{
-        width: 180px;
-        height: 3px;
-    }
-    .Trending-item{
-        gap:15px;
-        margin: 0;
-        margin-top: 10px;
-    }
-
-}
 @media(max-width:800px){
     .Trending{
         height: 50vh;

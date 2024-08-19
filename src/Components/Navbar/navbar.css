@@ -169,7 +169,7 @@
         display: none;
         position: absolute;
         height: 60px;
-        width: 100%;
+        width: 90%;
         justify-content: center;
         background-color: #01131b;
         top: 45px;
@@ -190,6 +190,7 @@
     .nav-menu{
         height: 70px;
         top: 50px;
+        width: 85%;
     }
     .nav-login-cart{
         transform: scale(0.9);

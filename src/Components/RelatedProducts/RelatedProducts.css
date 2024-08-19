@@ -27,3 +27,70 @@
     gap: 150px;
     color: white;
 }
+@media(max-width:1280px){
+    .relatedProducts{
+        padding-bottom: 20px;
+        height:60vh;
+    }
+    .relatedProducts h1{
+        font-size: 35px;
+    }
+    .relatedProducts hr{
+        width: 250px;
+        height: 3px;
+    }
+    .relatedProducts-item{
+        gap:40px;
+        margin: 0px;
+        margin-top: 30px;
+    }
+}
+@media(max-width:1024px){
+    .relatedProducts{
+        height: 50vh;
+    }
+    .relatedProducts h1{
+        font-size: 30px;
+    }
+    .relatedProducts hr{
+        width: 180px;
+        height: 3px;
+    }
+    .relatedProducts-item{
+        gap:15px;
+        margin: 0;
+        margin-top: 10px;
+    }
+
+}
+@media(max-width:800px){
+    .relatedProducts{
+        height: 40vh;
+        gap: 6px;
+    }
+    .relatedProducts h1{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+    .relatedProducts hr{
+        width: 100px;
+        height: 1px;
+    }
+    .relatedProducts-item{
+        gap:10px;
+        margin: 0;
+    }
+
+}
+@media(max-width:500px){
+    .relatedProducts{
+        height: 100%;
+    }
+    .relatedProducts-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+

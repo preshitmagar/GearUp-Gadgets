@@ -16,10 +16,9 @@ const ProductDisplay = (props) => {
                     <img src={product.image} alt='' />
                     <img src={product.image} alt='' />
                 </div>
-            </div>
             <div className="productDisplay-image">
                 <img src={product.image} alt='' />
-
+        </div>
             </div>
             <div className="productDisplay-right">
                 <h1>{product.name}</h1>
