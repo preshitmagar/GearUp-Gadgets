@@ -40,12 +40,12 @@
 .CartItems-down{
     display: flex;
     margin: 100px 0px;
+    gap:30%;
 }
 .CartItems-total{
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin-right: 600px;
     gap: 40px;
 }
 .CartItems-total-item{
@@ -112,4 +112,94 @@
     transition: 0.1s;
     background-color: #f72585;
     color: white;
+}
+@media(max-width:1280px){
+    .CartItems{
+        padding: 20px 80px;
+    }
+    .CartItems-main-format{
+        grid-template-columns: 0.5fr 2fr 0.5fr 0.5fr 0.5fr 0.5fr;
+        gap: 25px;
+        padding: 15px 0px;
+        font-size: 15px;
+    }
+    .CartItems-down{
+        margin: 50px 0px;
+        gap: 25%;
+    }
+    .carticon-product-icon{
+        height: 60px;
+    }
+    .carticon-remove-icon{
+        margin:auto;
+    }
+    .cartitems-quantity{
+        width: 50px;
+        height: 30px;
+    }
+    .CartItems-total button{
+        font-size: 20px;
+    }
+    .CartItems-promo-box input{
+        font-size: 15px;
+        width: 160px;
+        height: 30px;
+        padding: 0px 5px;
+    }
+    .CartItems-promo-box{
+        width: 250px;
+        height: 30px;
+        padding-left: 5px;
+        background: white;
+        border-radius: 4px;
+    }
+    .CartItems-promo-box button{
+        height: 30px;
+        font-size: 15px;
+    }
+}
+@media(max-width:1024px){
+    .CartItems{
+        padding: 20px 50px;
+    }
+    .CartItems-down{
+        margin: 50px 0px;
+        gap: 20%;
+    }
+}
+@media(max-width:800px){
+    .CartItems{
+        padding: 20px 40px;
+    }
+    .CartItems-down{
+        margin: 70px 0px;
+        gap: 30px;
+        flex-direction: column;
+        font-size: 12px;
+    }
+    .CartItems-main-format{
+        grid-template-columns: 0.3fr 1.5fr 0.3fr 0.3fr 0.3fr 0.3fr;
+        gap: 15px;
+        padding: 15px 0px;
+        font-size: 12px;
+    }
+    .CartItems-total button{
+        width: 180px;
+        height: 40px;
+        font-size: 14px;
+    }
+    .CartItems-promocode{
+        font-size: 14px;
+    }
+    .CartItems-promo-box input{
+        font-size: 14px;
+    }
+    .CartItems-promo-box button{
+        font-size: 14px;
+    }
+}
+@media(max-width:500px){
+    .CartItems{
+        padding: 8px 25px;
+    }
 }
